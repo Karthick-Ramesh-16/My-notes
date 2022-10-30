@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>My-notes</title>
 </head>
 <body>
-    <div id="note-head">
+    <div id="note">
         <h1>New note</h1>
-        <input type="text"/>
-        <button id="note-save">Save</button>
-        <br/> <br/>
-        <textarea id="note-content" cols="30" rows="10"></textarea>
+        <div id="note-head">
+            <input type="text" id="note-title" placeholder="Title..."/>
+            <button id="note-save">Save</button>
+        </div>
+        <br> <br>
+        <textarea id="note-content" cols="91" rows="35" placeholder="Enter your note..."></textarea>
     </div>
 </body>
 </html>

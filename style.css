@@ -1,0 +1,55 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 64rem;
+    margin: 0rem auto;
+}
+
+#note {
+    padding: 0.625rem 3.125rem 0rem 3.125rem;
+}
+
+#note > h1 {
+    color: #111;
+}
+
+#note-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#note-title {
+    width: 75%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #555;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#note-content {
+    resize: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+#note-save {
+    font-size: 1.25rem;
+    color: white;
+    background-color: #48bb78;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 0.375rem 1.25rem;
+}
+
+#note-save:active {
+    color: white;
+    background-color: #1c8e4c;
+}
