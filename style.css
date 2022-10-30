@@ -3,13 +3,12 @@ html {
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
     max-width: 64rem;
     margin: 0rem auto;
 }
 
 #note {
-    padding: 0.625rem 3.125rem 0rem 3.125rem;
+    padding: 0.5rem 3.125rem 0rem 3.125rem;
 }
 
 #note > h1 {
@@ -40,16 +39,24 @@ body {
     padding: 1rem;
 }
 
-#note-save {
+#note-save-btn {
     font-size: 1.25rem;
     color: white;
-    background-color: #48bb78;
+    background-color: #35c2e2;
     border: 1px solid transparent;
     border-radius: 4px;
     padding: 0.375rem 1.25rem;
 }
 
-#note-save:active {
+#note-save-btn:active {
     color: white;
-    background-color: #1c8e4c;
+    background-color: #48a6bb;
+}
+
+#note-saved {
+    padding: 1rem;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color: #48bb78;
 }

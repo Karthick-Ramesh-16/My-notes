@@ -9,13 +9,18 @@
 </head>
 <body>
     <div id="note">
-        <h1>New note</h1>
-        <div id="note-head">
-            <input type="text" id="note-title" placeholder="Title..."/>
-            <button id="note-save">Save</button>
+        <div id="note-saved" style="display: none;">
+            <span id="note-saved-txt">Note saved</span>
+            <span id="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
         </div>
         <br> <br>
-        <textarea id="note-content" cols="91" rows="35" placeholder="Enter your note..."></textarea>
+        <div id="note-head">
+            <input type="text" id="note-title" placeholder="Title..."/>
+            <button id="note-save-btn" onclick="saveNote()">Save</button>
+        </div>
+        <br> <br>
+        <textarea id="note-content" cols="91" rows="38" placeholder="Enter your note..."></textarea>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
